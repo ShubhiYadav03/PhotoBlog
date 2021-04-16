@@ -1,0 +1,25 @@
+img{
+    width:30%;
+    margin:calc(10%/6);
+    transition: 0.3s;
+}
+img:hover{
+    transform:scale(1.05);
+    -webkit-box-shadow: -6px -7px 25px 0px rgba(0,0,0,0.84);
+-moz-box-shadow: -6px -7px 25px 0px rgba(0,0,0,0.84);
+box-shadow: -6px -7px 25px 0px rgba(0,0,0,0.84);
+}
+nav{
+    text-transform: uppercase;
+    border-bottom: 2px solid #f1f1f1;
+    margin-left:calc(10%/6);
+    width: 30%;
+    padding: 1.1em 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+span{
+    font-size: 1.8rem;
+    font-family: 'Train One', cursive;
+}
